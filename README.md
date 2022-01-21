@@ -19,16 +19,16 @@ Using [react-native-template-typescript][1] as the starting point, I've removed 
 - `@types/react-test-renderer`
 - `@types/jest`
 
-### File/Folder removals, renames and additions
+### Files and folders removed, renamed and added
 - Removed: `/__tests__/`, `/android/`, `/ios/`, `/.buckconfig`, `/.editorconfig`, `/.prettierrc.js`, `/.gitattributes`, `/.watchmanconfig`, `/yarn.lock`.
-- Changed: `/.eslintrc.js/` -> `/.eslintrc`.
+- Renamed: `/.eslintrc.js/` -> `/.eslintrc`.
 - Added: `/.eslintignore`, `/src/` and its sub-folders.
 
-### File changes.
+### File changes
 - `/.eslintrc`: Added personal preferences and removed `extends`. I suggest taking a look at this prior to development.
 - `/package.json`: Removed 'test' script, removed `resolutions` and `jest` keys.
 - `/tsconfig.json`: Replaced with my own `tsconfig` file. I suggest taking a look at this prior to development.
-- `/babel.config.js`: Added [jsx transform][2] (no need to import 'React' every file 🙏🙏🙏), module resolver previously mentioned and `@babel/preset-typescript`.
+- `/babel.config.js`: Added [jsx transform][2] (no need to import 'React' every file 🙏🙏🙏), module resolver previously mentioned and `@`.
 
 ### How to use the template
 1. Clone this repo. I will reference this template moving forward as `Template`.
