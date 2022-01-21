@@ -28,7 +28,7 @@ Using [react-native-template-typescript][1] as the starting point, I've removed 
 - `/.eslintrc`: Added personal preferences and removed `extends`. I suggest taking a look at this prior to development.
 - `/package.json`: Removed 'test' script, removed `resolutions` and `jest` keys.
 - `/tsconfig.json`: Replaced with my own `tsconfig` file. I suggest taking a look at this prior to development.
-- `/babel.config.js`: Added [jsx transform][2] (no need to import 'React' every file 🙏🙏🙏), module resolver previously mentioned and `@`.
+- `/babel.config.js`: Added [jsx transform][2] (no need to import 'React' every file 🙏🙏🙏), module resolver previously mentioned and added preset `@babel/preset-typescript`.
 
 ### How to use the template
 1. Clone this repo. I will reference this template moving forward as `Template`.
